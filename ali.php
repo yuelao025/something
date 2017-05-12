@@ -13,8 +13,8 @@ class ali
     */
     public  static function actionAli()
     {
-        $accessKeyId = "Ty60ASvP39nV2bwf"; ;
-        $accessKeySecret = "Qt8wxVgZkIJkaUuhEhOQWET1mzcT53";
+        $accessKeyId = "Ty60xxx"; ;
+        $accessKeySecret = "yyyyyyyyyyyyyyy1mzcT53";
         $endpoint = "oss-cn-shanghai.aliyuncs.com";
         try {
             $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
